@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Abstract network mark">
+  <rect width="400" height="400" fill="#0B1020"/>
+
+  <!-- outer ring -->
+  <polygon points="200,90 295.3,145 295.3,255 200,310 104.7,255 104.7,145" fill="none" stroke="#4FD1C5" stroke-opacity="0.35" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- spokes -->
+  <g stroke="#4FD1C5" stroke-opacity="0.7" stroke-width="7" stroke-linecap="round">
+    <line x1="200" y1="200" x2="200" y2="90"/>
+    <line x1="200" y1="200" x2="295.3" y2="145"/>
+    <line x1="200" y1="200" x2="295.3" y2="255"/>
+    <line x1="200" y1="200" x2="200" y2="310"/>
+    <line x1="200" y1="200" x2="104.7" y2="255"/>
+    <line x1="200" y1="200" x2="104.7" y2="145"/>
+  </g>
+
+  <!-- plain outer nodes -->
+  <g fill="#0B1020" stroke="#4FD1C5" stroke-width="8">
+    <circle cx="295.3" cy="145" r="20"/>
+    <circle cx="200" cy="310" r="20"/>
+    <circle cx="104.7" cy="255" r="20"/>
+    <circle cx="104.7" cy="145" r="20"/>
+  </g>
+
+  <!-- accent nodes -->
+  <circle cx="200" cy="90" r="22" fill="#818CF8"/>
+  <circle cx="295.3" cy="255" r="22" fill="#4FD1C5"/>
+
+  <!-- centre hub -->
+  <circle cx="200" cy="200" r="30" fill="#4FD1C5"/>
+</svg>

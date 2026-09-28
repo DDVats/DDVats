@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img" aria-labelledby="t d">
+  <title id="t">Areas I work on, explore, and learn</title>
+  <desc id="d">Machine Learning at the centre, connected to Deep Learning, Computer Vision, Medical AI, Federated Learning, Efficient AI (PEFT and LoRA), and Multimodal AI.</desc>
+  <defs>
+    <clipPath id="card">
+      <rect width="900" height="420" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card)" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect width="900" height="420" fill="#0B1020"/>
+
+    <!-- connections -->
+    <g stroke="#4FD1C5" stroke-opacity="0.45" stroke-width="1.6" fill="none">
+      <line x1="450" y1="210" x2="260" y2="70"/>
+      <line x1="450" y1="210" x2="260" y2="210"/>
+      <line x1="450" y1="210" x2="260" y2="350"/>
+      <line x1="450" y1="210" x2="640" y2="70"/>
+      <line x1="450" y1="210" x2="640" y2="210"/>
+      <line x1="450" y1="210" x2="640" y2="350"/>
+    </g>
+
+    <!-- left column -->
+    <g fill="#0F1730" stroke="#4FD1C5" stroke-opacity="0.55" stroke-width="1.5">
+      <rect x="40" y="41" width="220" height="58" rx="12"/>
+      <rect x="40" y="181" width="220" height="58" rx="12"/>
+      <rect x="40" y="321" width="220" height="58" rx="12"/>
+    </g>
+    <g text-anchor="middle">
+      <text x="150" y="67" font-size="16" font-weight="700" fill="#E6EDF3">Deep Learning</text>
+      <text x="150" y="87" font-size="12" fill="#8B949E">CNNs · Transformers</text>
+      <text x="150" y="207" font-size="16" font-weight="700" fill="#E6EDF3">Computer Vision</text>
+      <text x="150" y="227" font-size="12" fill="#8B949E">Classification · Segmentation</text>
+      <text x="150" y="347" font-size="16" font-weight="700" fill="#E6EDF3">Medical AI</text>
+      <text x="150" y="367" font-size="12" fill="#8B949E">Imaging · ECG · Explainability</text>
+    </g>
+
+    <!-- right column -->
+    <g fill="#0F1730" stroke="#818CF8" stroke-opacity="0.65" stroke-width="1.5">
+      <rect x="640" y="41" width="220" height="58" rx="12"/>
+      <rect x="640" y="181" width="220" height="58" rx="12"/>
+      <rect x="640" y="321" width="220" height="58" rx="12"/>
+    </g>
+    <g text-anchor="middle">
+      <text x="750" y="67" font-size="16" font-weight="700" fill="#E6EDF3">Federated Learning</text>
+      <text x="750" y="87" font-size="12" fill="#8B949E">Multi-center · Domain shift</text>
+      <text x="750" y="207" font-size="16" font-weight="700" fill="#E6EDF3">Efficient AI</text>
+      <text x="750" y="227" font-size="12" fill="#8B949E">PEFT · LoRA</text>
+      <text x="750" y="347" font-size="16" font-weight="700" fill="#E6EDF3">Multimodal AI</text>
+      <text x="750" y="367" font-size="12" fill="#8B949E">Vision–language</text>
+    </g>
+
+    <!-- centre -->
+    <circle cx="450" cy="210" r="58" fill="#0F1730" stroke="#4FD1C5" stroke-width="2.5"/>
+    <g text-anchor="middle" font-size="17" font-weight="700" fill="#E6EDF3">
+      <text x="450" y="206">Machine</text>
+      <text x="450" y="227">Learning</text>
+    </g>
+
+    <text x="450" y="408" text-anchor="middle" font-size="14" fill="#8B949E">Areas I work on, explore, and learn</text>
+  </g>
+</svg>
