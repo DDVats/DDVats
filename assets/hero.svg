@@ -1,63 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-labelledby="t d">
   <title id="t">Divyanshu Dwivedi — Machine Learning, Artificial Intelligence, Research</title>
-  <desc id="d">Dark banner with the name Divyanshu Dwivedi and a small abstract neural network diagram.</desc>
+  <desc id="d">Dark banner with the name Divyanshu Dwivedi centred in large type, above a strip of squares forming an illustrative patch-attention heat map.</desc>
   <defs>
-    <clipPath id="card">
-      <rect width="1200" height="320" rx="16"/>
-    </clipPath>
+    <clipPath id="card"><rect width="1200" height="380" rx="16"/></clipPath>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#E6EDF3" stroke-opacity="0.05" stroke-width="1"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#E6EDF3" stroke-opacity="0.045" stroke-width="1"/>
     </pattern>
-    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#4FD1C5" stop-opacity="0.10"/>
-      <stop offset="1" stop-color="#818CF8" stop-opacity="0.10"/>
-    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.35" r="0.55">
+      <stop offset="0" stop-color="#F5B84B" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#F5B84B" stop-opacity="0"/>
+    </radialGradient>
   </defs>
+  <g clip-path="url(#card)" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" text-anchor="middle">
+    <rect width="1200" height="380" fill="#0B1020"/>
+    <rect width="1200" height="380" fill="url(#grid)"/>
+    <rect width="1200" height="380" fill="url(#glow)"/>
 
-  <g clip-path="url(#card)" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
-    <rect width="1200" height="320" fill="#0B1020"/>
-    <rect width="1200" height="320" fill="url(#grid)"/>
-    <rect x="660" y="0" width="540" height="320" fill="url(#glow)"/>
+    <text x="600" y="150" font-size="84" font-weight="800" fill="#E6EDF3">Divyanshu Dwivedi</text>
+    <rect x="570" y="176" width="60" height="4" rx="2" fill="#F5B84B"/>
+    <text x="600" y="228" font-size="26" letter-spacing="1" fill="#4FD1C5">Machine Learning • Artificial Intelligence • Research</text>
+    <text x="600" y="264" font-size="18" fill="#8B949E">College student · learning, building, experimenting</text>
 
-    <!-- text -->
-    <text x="60" y="135" font-size="52" font-weight="700" fill="#E6EDF3">Divyanshu Dwivedi</text>
-    <rect x="60" y="156" width="56" height="4" rx="2" fill="#4FD1C5"/>
-    <text x="60" y="197" font-size="20" letter-spacing="0.5" fill="#4FD1C5">Machine Learning • Artificial Intelligence • Research</text>
-    <text x="60" y="232" font-size="16" fill="#8B949E">College student · learning, building, experimenting</text>
-
-    <!-- network: all connections -->
-    <path fill="none" stroke="#4FD1C5" stroke-opacity="0.18" stroke-width="1.2" d="
-      M760 90 L900 55 M760 90 L900 125 M760 90 L900 195 M760 90 L900 265
-      M760 160 L900 55 M760 160 L900 125 M760 160 L900 195 M760 160 L900 265
-      M760 230 L900 55 M760 230 L900 125 M760 230 L900 195 M760 230 L900 265
-      M900 55 L1040 90 M900 55 L1040 160 M900 55 L1040 230
-      M900 125 L1040 90 M900 125 L1040 160 M900 125 L1040 230
-      M900 195 L1040 90 M900 195 L1040 160 M900 195 L1040 230
-      M900 265 L1040 90 M900 265 L1040 160 M900 265 L1040 230"/>
-
-    <!-- network: two highlighted paths -->
-    <path fill="none" stroke="#4FD1C5" stroke-opacity="0.9" stroke-width="2.2" d="M760 160 L900 125 L1040 160"/>
-    <path fill="none" stroke="#818CF8" stroke-opacity="0.9" stroke-width="2.2" d="M760 230 L900 195 L1040 230"/>
-
-    <!-- network: plain nodes -->
-    <g fill="#0B1020" stroke="#4FD1C5" stroke-opacity="0.7" stroke-width="2">
-      <circle cx="760" cy="90" r="7"/>
-      <circle cx="900" cy="55" r="7"/>
-      <circle cx="900" cy="265" r="7"/>
-      <circle cx="1040" cy="90" r="7"/>
+    <g>
+      <rect x="123" y="296" width="24" height="24" rx="5" fill="rgb(79,209,197)" fill-opacity="0.08"/>
+      <rect x="153" y="296" width="24" height="24" rx="5" fill="rgb(80,209,196)" fill-opacity="0.11"/>
+      <rect x="183" y="296" width="24" height="24" rx="5" fill="rgb(83,208,194)" fill-opacity="0.15"/>
+      <rect x="213" y="296" width="24" height="24" rx="5" fill="rgb(91,207,188)" fill-opacity="0.23"/>
+      <rect x="243" y="296" width="24" height="24" rx="5" fill="rgb(106,205,177)" fill-opacity="0.34"/>
+      <rect x="273" y="296" width="24" height="24" rx="5" fill="rgb(120,203,167)" fill-opacity="0.43"/>
+      <rect x="303" y="296" width="24" height="24" rx="5" fill="rgb(108,205,176)" fill-opacity="0.35"/>
+      <rect x="333" y="296" width="24" height="24" rx="5" fill="rgb(100,206,182)" fill-opacity="0.30"/>
+      <rect x="363" y="296" width="24" height="24" rx="5" fill="rgb(90,207,189)" fill-opacity="0.22"/>
+      <rect x="393" y="296" width="24" height="24" rx="5" fill="rgb(96,206,185)" fill-opacity="0.27"/>
+      <rect x="423" y="296" width="24" height="24" rx="5" fill="rgb(112,204,173)" fill-opacity="0.38"/>
+      <rect x="453" y="296" width="24" height="24" rx="5" fill="rgb(138,200,154)" fill-opacity="0.52"/>
+      <rect x="483" y="296" width="24" height="24" rx="5" fill="rgb(153,198,142)" fill-opacity="0.59"/>
+      <rect x="513" y="296" width="24" height="24" rx="5" fill="rgb(192,192,114)" fill-opacity="0.75"/>
+      <rect x="543" y="296" width="24" height="24" rx="5" fill="rgb(228,186,87)" fill-opacity="0.89"/>
+      <rect x="573" y="296" width="24" height="24" rx="5" fill="rgb(245,184,75)" fill-opacity="0.95"/>
+      <rect x="603" y="296" width="24" height="24" rx="5" fill="rgb(245,184,75)" fill-opacity="0.95"/>
+      <rect x="633" y="296" width="24" height="24" rx="5" fill="rgb(217,188,95)" fill-opacity="0.85"/>
+      <rect x="663" y="296" width="24" height="24" rx="5" fill="rgb(189,192,116)" fill-opacity="0.74"/>
+      <rect x="693" y="296" width="24" height="24" rx="5" fill="rgb(158,197,139)" fill-opacity="0.61"/>
+      <rect x="723" y="296" width="24" height="24" rx="5" fill="rgb(131,201,159)" fill-opacity="0.48"/>
+      <rect x="753" y="296" width="24" height="24" rx="5" fill="rgb(111,204,173)" fill-opacity="0.37"/>
+      <rect x="783" y="296" width="24" height="24" rx="5" fill="rgb(99,206,182)" fill-opacity="0.29"/>
+      <rect x="813" y="296" width="24" height="24" rx="5" fill="rgb(84,208,194)" fill-opacity="0.16"/>
+      <rect x="843" y="296" width="24" height="24" rx="5" fill="rgb(90,207,189)" fill-opacity="0.22"/>
+      <rect x="873" y="296" width="24" height="24" rx="5" fill="rgb(106,205,177)" fill-opacity="0.34"/>
+      <rect x="903" y="296" width="24" height="24" rx="5" fill="rgb(122,202,165)" fill-opacity="0.44"/>
+      <rect x="933" y="296" width="24" height="24" rx="5" fill="rgb(125,202,163)" fill-opacity="0.45"/>
+      <rect x="963" y="296" width="24" height="24" rx="5" fill="rgb(114,204,172)" fill-opacity="0.39"/>
+      <rect x="993" y="296" width="24" height="24" rx="5" fill="rgb(89,208,190)" fill-opacity="0.21"/>
+      <rect x="1023" y="296" width="24" height="24" rx="5" fill="rgb(83,208,194)" fill-opacity="0.15"/>
+      <rect x="1053" y="296" width="24" height="24" rx="5" fill="rgb(82,209,195)" fill-opacity="0.13"/>
+      <rect x="123" y="326" width="24" height="24" rx="5" fill="rgb(84,208,193)" fill-opacity="0.17"/>
+      <rect x="153" y="326" width="24" height="24" rx="5" fill="rgb(86,208,192)" fill-opacity="0.18"/>
+      <rect x="183" y="326" width="24" height="24" rx="5" fill="rgb(93,207,187)" fill-opacity="0.24"/>
+      <rect x="213" y="326" width="24" height="24" rx="5" fill="rgb(112,204,172)" fill-opacity="0.38"/>
+      <rect x="243" y="326" width="24" height="24" rx="5" fill="rgb(150,198,145)" fill-opacity="0.57"/>
+      <rect x="273" y="326" width="24" height="24" rx="5" fill="rgb(184,193,120)" fill-opacity="0.72"/>
+      <rect x="303" y="326" width="24" height="24" rx="5" fill="rgb(183,193,121)" fill-opacity="0.72"/>
+      <rect x="333" y="326" width="24" height="24" rx="5" fill="rgb(146,199,148)" fill-opacity="0.56"/>
+      <rect x="363" y="326" width="24" height="24" rx="5" fill="rgb(108,205,176)" fill-opacity="0.35"/>
+      <rect x="393" y="326" width="24" height="24" rx="5" fill="rgb(89,208,190)" fill-opacity="0.21"/>
+      <rect x="423" y="326" width="24" height="24" rx="5" fill="rgb(96,206,185)" fill-opacity="0.27"/>
+      <rect x="453" y="326" width="24" height="24" rx="5" fill="rgb(108,205,176)" fill-opacity="0.35"/>
+      <rect x="483" y="326" width="24" height="24" rx="5" fill="rgb(124,202,164)" fill-opacity="0.45"/>
+      <rect x="513" y="326" width="24" height="24" rx="5" fill="rgb(143,199,150)" fill-opacity="0.54"/>
+      <rect x="543" y="326" width="24" height="24" rx="5" fill="rgb(161,197,137)" fill-opacity="0.62"/>
+      <rect x="573" y="326" width="24" height="24" rx="5" fill="rgb(171,195,130)" fill-opacity="0.66"/>
+      <rect x="603" y="326" width="24" height="24" rx="5" fill="rgb(169,195,131)" fill-opacity="0.66"/>
+      <rect x="633" y="326" width="24" height="24" rx="5" fill="rgb(177,194,125)" fill-opacity="0.69"/>
+      <rect x="663" y="326" width="24" height="24" rx="5" fill="rgb(157,197,140)" fill-opacity="0.60"/>
+      <rect x="693" y="326" width="24" height="24" rx="5" fill="rgb(134,201,157)" fill-opacity="0.50"/>
+      <rect x="723" y="326" width="24" height="24" rx="5" fill="rgb(114,204,171)" fill-opacity="0.39"/>
+      <rect x="753" y="326" width="24" height="24" rx="5" fill="rgb(100,206,182)" fill-opacity="0.30"/>
+      <rect x="783" y="326" width="24" height="24" rx="5" fill="rgb(91,207,188)" fill-opacity="0.23"/>
+      <rect x="813" y="326" width="24" height="24" rx="5" fill="rgb(88,208,190)" fill-opacity="0.21"/>
+      <rect x="843" y="326" width="24" height="24" rx="5" fill="rgb(103,205,179)" fill-opacity="0.32"/>
+      <rect x="873" y="326" width="24" height="24" rx="5" fill="rgb(130,201,159)" fill-opacity="0.48"/>
+      <rect x="903" y="326" width="24" height="24" rx="5" fill="rgb(156,197,140)" fill-opacity="0.60"/>
+      <rect x="933" y="326" width="24" height="24" rx="5" fill="rgb(155,198,141)" fill-opacity="0.60"/>
+      <rect x="963" y="326" width="24" height="24" rx="5" fill="rgb(128,202,161)" fill-opacity="0.46"/>
+      <rect x="993" y="326" width="24" height="24" rx="5" fill="rgb(99,206,182)" fill-opacity="0.29"/>
+      <rect x="1023" y="326" width="24" height="24" rx="5" fill="rgb(85,208,193)" fill-opacity="0.17"/>
+      <rect x="1053" y="326" width="24" height="24" rx="5" fill="rgb(80,209,196)" fill-opacity="0.11"/>
     </g>
-
-    <!-- network: highlighted nodes -->
-    <g fill="#4FD1C5">
-      <circle cx="760" cy="160" r="8"/>
-      <circle cx="900" cy="125" r="8"/>
-      <circle cx="1040" cy="160" r="8"/>
-    </g>
-    <g fill="#818CF8">
-      <circle cx="760" cy="230" r="8"/>
-      <circle cx="900" cy="195" r="8"/>
-      <circle cx="1040" cy="230" r="8"/>
-    </g>
+    <text x="1077" y="368" text-anchor="end" font-size="11" fill="#8B949E">illustrative patch-attention map</text>
   </g>
 </svg>
