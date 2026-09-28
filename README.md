@@ -14,7 +14,7 @@ status:    college student · learning, building, experimenting
 focus:     [machine learning, artificial intelligence, deep learning, research]
 vision:    [classification, segmentation, medical imaging, vision transformers]
 exploring: [federated learning, PEFT / LoRA, explainable AI, multimodal models]
-projects:  private for now, public links will appear here
+ 
 ```
 
 I'm a college student working in machine learning and AI, with a focus on deep learning and computer vision. I like to pair research-style questions with hands-on implementation.
